@@ -23,6 +23,7 @@ a {
     padding: 10px 20px;
     overflow: hidden;
     min-height: 4.3em;
+    min-width: 1000px;
     width: 100%;
 }
 
