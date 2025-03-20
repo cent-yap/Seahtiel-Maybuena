@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  html, body {
+    scroll-behavior: smooth;
+    min-height: 100dvh;
+    width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .head{
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      overflow: hidden;
+      min-height: 4.3em;
+      min-width: 1000px;
+      width: 100%;
+  }
+  
+  .navy{
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 20px;
+      height: fit-content;
+      width: 100%;
+  }
+  
+  .navy .align{
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 25px 0;
+      background: #023047;
+      outline: 2px outset #cccc;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+      border-radius: 50px;
+      height: 50px;
+      width: 550px;
+  }
+  
+  .align .hey{
+      list-style: none;
+  }
+  
+  .align .hey a{
+      font-size: 1.1rem;
+      color: aliceblue;
+  }
+  
+  .align .hey a.active{
+     font-weight: 700;
+     color: #e8f1f2;
+     border-bottom: 2px inset #edae49;
+  }
+  
+  .align .hey a.use:not(a.active):hover{
+      color: #dee2ff;
+      font-weight: 600;
+  }
+  
+ .sec{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    min-height: 70dvh;
+    width: 100%;
+ }
+
+ .sec .con{
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 2px solid #023047;
+    gap: 20px;
+    padding: 20px;
+    height: fit-content;
+    width: max-content;
+ }
+
+ .con .hum{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    height: fit-content;
+    width: max-content;
+ }
+
+ .hum h2{
+    color: #023047;
+    font-size: 2rem;
+    padding-bottom: 20px;
+ }
+
+ .hum p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+ }
+
+ .con a{
+    font-size: 1.1rem;
+    color: #023047;
+ }
+
+ .con a:hover{
+    font-weight: 700;
+ }
